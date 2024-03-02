@@ -1,0 +1,1510 @@
+/* =======================ex sm start=========================== */
+
+@media (min-width: 350px) and (max-width: 575.98px) {
+  nav .navbar-brand {
+    font-size: 17px;
+  }
+  nav .btn-primary {
+    background: none;
+    border: 0;
+    outline: 0;
+    --bs-btn-active-bg: none;
+    transition: all linear 0.4s;
+  }
+  nav .btn-primary:hover {
+    background: none;
+  }
+  nav .btn-primary:hover i {
+    color: #463c87 !important;
+  }
+  .navbar-nav {
+    margin-left: 0 !important;
+  }
+  .offcanvas {
+    background: rgb(239, 239, 239);
+    align-items: center;
+    padding-top: 36px;
+    width: 80% !important;
+    z-index: 999999;
+  }
+
+  .btn-close {
+    --bs-btn-close-bg: none !important;
+    --bs-btn-close-focus-shadow: none;
+    --bs-btn-close-focus-opacity: 0;
+    --bs-btn-close-disabled-opacity: 0;
+  }
+
+  /* ------------------ nav----------------------- */
+  .offcanvas {
+    padding-block-start: 0;
+  }
+  .offcanvas .offcanvas-body {
+    padding-inline: 0;
+  }
+  .navbar-nav {
+    justify-content: center;
+    align-items: center;
+    row-gap: 15px;
+  }
+
+  .offcanvas-body .read_btn a {
+    padding: 8px 10px;
+    margin-top: 20px;
+  }
+
+  #hero_section .left .dau {
+    margin-block-start: 10px;
+    margin-left: 0px;
+    width: 71px;
+  }
+  #hero_section .left .dau img {
+    width: 100%;
+  }
+
+  #hero_section .left .text p {
+    font-size: 13px;
+    margin-block: 20px 6px;
+    width: auto;
+  }
+  #hero_section .left .text h1 {
+    font-size: 40px;
+    width: auto;
+    text-align: center;
+  }
+
+  #hero_section .left .text h4 {
+    font-size: 15px;
+    width: auto;
+    text-align: center;
+  }
+
+  #hero_section .right .image img {
+    position: static;
+    width: 100%;
+  }
+  #hero_section .right {
+    margin: -100px 0;
+  }
+  #hero_section .right .image .rate .icone i {
+    font-size: 28px;
+  }
+
+  #hero_section .right .image .rate .text h5 {
+    font-size: 16px;
+    margin-block-end: 5px;
+  }
+  #hero_section .right .image .rate .text p {
+    font-size: 11px;
+  }
+
+  #hero_section .right .image .rate {
+    column-gap: 10px;
+    right: 0 !important;
+    transform: translate(5%, -50%);
+    padding: 11px;
+  }
+  #help_section .image {
+    margin-block-end: 10px;
+    margin-block-start: 15px;
+    width: 70px;
+  }
+  #help_section .image img {
+    width: 100%;
+  }
+
+  .sub_title h2 {
+    font-size: 31px;
+    line-height: 40px;
+    width: auto;
+  }
+  #help_section p {
+    font-size: 15px;
+    width: auto;
+    margin-block: 20px;
+    text-align: center;
+  }
+  #coaching_section {
+    padding-block: 10px 50px;
+  }
+
+  #coaching_section .card .card-body .card-text {
+    width: auto;
+  }
+  #clients_section {
+    padding: 55px 0 110px 0;
+  }
+  #clients_section .sub_title h2 {
+    width: auto;
+  }
+  .sub_title h2 {
+    font-size: 25px;
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+  }
+  #clients_section .one_person {
+    padding: 40px;
+  }
+  #clients_section .one_person .detail h3 {
+    font-size: 18px;
+    line-height: 30px;
+    width: auto;
+  }
+  #clients_section .one_person .name h3 {
+    font-size: 30px;
+    width: auto;
+  }
+  #motivate_section {
+    padding: 10px 0;
+  }
+  #motivate_section .motiva_title {
+    width: auto;
+    margin-block-end: 50px;
+  }
+
+  #motivate_section .card {
+    width: auto;
+  }
+
+  #motivate_section .card-body h5 {
+    font-size: 22px;
+    width: auto;
+  }
+  #motivate_section .card-body p {
+    font-size: 15px;
+    width: auto;
+  }
+  #miss_section {
+    padding: 0px 0 50px 0;
+  }
+  #miss_section .sub_title {
+    width: auto;
+    margin-block: 46px 22px;
+  }
+  #miss_section .text p {
+    font-size: 16px;
+    width: auto;
+    text-align: center;
+  }
+  #miss_section .text p {
+    font-size: 16px;
+    width: auto;
+    margin-block-end: 20px;
+    text-align: center;
+    line-height: 30px;
+  }
+  #miss_section .read_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #miss_section .read_btn a {
+    margin-block-end: 45px;
+  }
+
+  #miss_section .purple_box {
+    width: auto;
+    height: 535px;
+  }
+  #miss_section .purple_box .text h3 {
+    font-size: 25px;
+    line-height: 40px;
+    width: auto;
+    padding: 90px 0 0 38px;
+  }
+  #miss_section .purple_box .circle p {
+    font-size: 13px;
+  }
+  #miss_section .purple_box .circle {
+    transform: translate(0%, 0%);
+    width: 90px;
+    height: 90px;
+  }
+  #miss_section .purple_box .image .img_text .text_img .inner_text p {
+    font-size: 9px;
+  }
+  #minutes_section .full_box .text p {
+    font-size: 16px;
+    line-height: 20px;
+    margin-block: 15px 20px;
+    text-align: center;
+  }
+  #minutes_section .full_box .text .sub_title h2 {
+    font-size: 20px;
+    line-height: 30px;
+    margin-block-start: 30px;
+    text-align: center;
+  }
+  #minutes_section .read_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-block-end: 20px;
+  }
+  #minutes_section .full_box {
+    padding-block-start: 0;
+    border-radius: 24px;
+    padding-block-start: 5px;
+    padding-inline-start: 0;
+  }
+  #minutes_section {
+    padding-block-end: 60px;
+  }
+  #notified_section .email {
+    column-gap: 10px;
+  }
+  #notified_section .email form input {
+    padding: 9px 8px;
+  }
+  #notified_section .email .read_btn a {
+    padding: 9px 24px;
+    font-size: 14px;
+  }
+  #notified_section .text .sub_title h2 {
+    font-size: 23px;
+    line-height: 30px;
+  }
+  #notified_section .text p {
+    font-size: 17px;
+    text-align: center;
+    line-height: 27px;
+    margin-block: 28px;
+  }
+  #contact_section .con_logo {
+    margin-block-end: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #contact_section .text p {
+    font-size: 16px;
+    width: auto;
+    margin-block-end: 12px;
+    text-align: center;
+  }
+
+  #contact_section .text a {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    width: 100%;
+    margin-block-end: 12px;
+    text-align: center;
+  }
+  #contact_section .text {
+    margin-block-start: 12px;
+  }
+  #notified_section .jam {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn-close {
+    --bs-btn-close-color: #20ad96 !important;
+    --bs-btn-close-focus-shadow: none !important;
+  }
+  nav .nav-item .nav-link {
+    font-size: 17px;
+    margin-right: 0;
+  }
+}
+/* =======================ex sm end=========================== */
+
+/* ======================== sm start =========================== */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  nav .navbar-brand {
+    font-size: 17px;
+  }
+  .btn-close {
+    --bs-btn-close-color: #20ad96 !important;
+    --bs-btn-close-focus-shadow: none !important;
+  }
+  nav .nav-item .nav-link {
+    font-size: 17px;
+    margin-right: 0;
+  }
+  .container,
+  .container-sm {
+    max-width: 100% !important;
+  }
+  .sm_pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  nav .btn-primary {
+    background: none;
+    border: 0;
+    outline: 0;
+    --bs-btn-active-bg: none;
+    transition: all linear 0.4s;
+  }
+  nav .btn-primary:hover {
+    background: none;
+  }
+  nav .btn-primary:hover i {
+    color: #463c87 !important;
+  }
+  .navbar-nav {
+    margin-left: 0 !important;
+  }
+  .offcanvas {
+    background: rgb(239, 239, 239);
+    align-items: center;
+    padding-top: 36px;
+    width: 80% !important;
+    z-index: 999999;
+  }
+
+  .btn-close {
+    --bs-btn-close-bg: none !important;
+    --bs-btn-close-focus-shadow: none;
+    --bs-btn-close-focus-opacity: 0;
+    --bs-btn-close-disabled-opacity: 0;
+  }
+
+  /* ------------------ nav----------------------- */
+  .offcanvas {
+    padding-block-start: 0;
+  }
+  .offcanvas .offcanvas-body {
+    padding-inline: 0;
+  }
+  .navbar-nav {
+    justify-content: center;
+    align-items: center;
+    row-gap: 15px;
+  }
+
+  .offcanvas-body .read_btn a {
+    padding: 8px 10px;
+    margin-top: 20px;
+  }
+
+  #hero_section .left .dau {
+    margin-block-start: 10px;
+    margin-left: 0px;
+    width: 71px;
+  }
+  #hero_section .left .dau img {
+    width: 100%;
+  }
+
+  #hero_section .left .text p {
+    font-size: 15px;
+    margin-block: 20px 6px;
+    width: auto;
+    text-align: center;
+  }
+  #hero_section .left .text h1 {
+    font-size: 40px;
+    width: auto;
+    text-align: center;
+  }
+  #notified_section .jam {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #hero_section .left .text h4 {
+    font-size: 15px;
+    width: auto;
+    text-align: center;
+  }
+
+  #hero_section .right .image img {
+    position: static;
+    width: 100%;
+  }
+  #hero_section .right {
+    margin: -100px 0;
+  }
+  #hero_section .right .image .rate .icone i {
+    font-size: 28px;
+  }
+
+  #hero_section .right .image .rate .text h5 {
+    font-size: 16px;
+    margin-block-end: 5px;
+  }
+  #hero_section .right .image .rate .text p {
+    font-size: 12px;
+  }
+
+  #hero_section .right .image .rate {
+    column-gap: 10px;
+    right: 0 !important;
+    transform: translate(5%, -50%);
+    padding: 11px;
+  }
+  #help_section .image {
+    margin-block-end: 10px;
+    margin-block-start: 15px;
+    width: 70px;
+  }
+  #help_section .image img {
+    width: 100%;
+  }
+
+  .sub_title h2 {
+    font-size: 31px;
+    line-height: 40px;
+    width: auto;
+  }
+  #help_section p {
+    font-size: 16px;
+    width: auto;
+    margin-block: 20px;
+    text-align: center;
+  }
+  #coaching_section {
+    padding-block: 10px 50px;
+  }
+  .m_person {
+    margin: 0 auto;
+  }
+  #coaching_section .card .card-body .card-text {
+    width: auto;
+  }
+  #clients_section {
+    padding: 55px 0 70px 0;
+  }
+  .m_coaching {
+    margin: 0 auto;
+  }
+  #clients_section .sub_title h2 {
+    width: auto;
+  }
+  .sub_title h2 {
+    font-size: 26px;
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+  }
+  #clients_section .one_person {
+    padding: 40px;
+  }
+  #clients_section .one_person .detail h3 {
+    font-size: 18px;
+    line-height: 30px;
+    width: auto;
+  }
+  #clients_section .one_person .name h3 {
+    font-size: 30px;
+    width: auto;
+  }
+  #motivate_section {
+    padding: 10px 0;
+  }
+  #motivate_section .motiva_title {
+    width: auto;
+    margin-block-end: 50px;
+  }
+
+  #motivate_section .card {
+    width: auto;
+    height: 395px;
+  }
+  .m_crd {
+    margin: 0 auto;
+  }
+  #miss_section .purple_box .image .miss_img {
+    width: 100%;
+    position: static;
+  }
+  #miss_section .purple_box .image {
+    width: 100%;
+  }
+  #miss_section .purple_box {
+    width: auto;
+    height: 515px;
+    margin: 60px 0;
+    overflow: hidden;
+  }
+  #miss_section .purple_box .circle {
+    transform: translate(0, -0);
+    width: 90px;
+    height: 90px;
+  }
+  #miss_section .purple_box .text h3 {
+    font-size: 27px;
+    line-height: 38px;
+    width: auto;
+    padding: 118px 0 0 38px;
+  }
+  #motivate_section .card-body h5 {
+    font-size: 23px;
+    width: auto;
+  }
+  #motivate_section .card-body p {
+    font-size: 15px;
+    width: auto;
+  }
+  #miss_section {
+    padding: 0px 0 20px 0;
+  }
+  #miss_section .sub_title {
+    width: auto;
+    margin-block: 46px 22px;
+  }
+  .meet_pic {
+    margin: auto 0 !important;
+  }
+  #miss_section .text p {
+    font-size: 16px;
+    width: auto;
+    text-align: center;
+  }
+  #miss_section .text p {
+    font-size: 16px;
+    width: auto;
+    margin-block-end: 20px;
+    text-align: center;
+    line-height: 30px;
+  }
+  #miss_section .read_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #miss_section .read_btn a {
+    margin-block-end: 45px;
+  }
+
+  #minutes_section .full_box .text p {
+    font-size: 16px;
+    line-height: 20px;
+    margin-block: 15px 20px;
+    text-align: center;
+  }
+  #minutes_section .full_box .text .sub_title h2 {
+    font-size: 20px;
+    line-height: 30px;
+    margin-block-start: 30px;
+    text-align: center;
+  }
+  #minutes_section .read_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-block-end: 20px;
+  }
+  #minutes_section .full_box {
+    padding-block-start: 0;
+    border-radius: 24px;
+    padding-block-start: 5px;
+    padding-inline-start: 0;
+  }
+  #minutes_section {
+    padding-block-end: 60px;
+  }
+  #notified_section .email {
+    column-gap: 10px;
+  }
+  #notified_section .email form input {
+    padding: 9px 50px;
+  }
+  #notified_section .email .read_btn a {
+    padding: 9px 24px;
+    font-size: 14px;
+  }
+  #notified_section .text .sub_title h2 {
+    font-size: 23px;
+    line-height: 30px;
+  }
+  #notified_section .text p {
+    font-size: 17px;
+    text-align: center;
+    line-height: 27px;
+    margin-block: 28px;
+  }
+  #contact_section .con_logo {
+    margin-block-end: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #contact_section .text p {
+    font-size: 17px;
+    width: auto;
+    margin-block-end: 12px;
+    text-align: center;
+    line-height: 24px;
+  }
+
+  #contact_section .text a {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    width: 100%;
+    margin-block-end: 12px;
+    text-align: center;
+  }
+  #contact_section .text {
+    margin-block-start: 12px;
+  }
+  #help_section {
+    margin-block-start: 20px;
+  }
+  #contact_section .sub_title h2 {
+    font-size: 15px;
+    line-height: 20px;
+    margin-block-start: 5px;
+  }
+  #contact_section .text a {
+    font-size: 17px;
+    line-height: 24px;
+  }
+  nav .nav-item .nav-link {
+    font-size: 17px;
+    margin-right: 0;
+  }
+  .fa-solid {
+    font-size: 20px;
+  }
+}
+/* =======================ex sm end=========================== */
+
+/* ======================== md start =========================== */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  nav .navbar-brand {
+    font-size: 17px;
+  }
+  .btn-close {
+    --bs-btn-close-color: #20ad96 !important;
+    --bs-btn-close-focus-shadow: none !important;
+  }
+  nav .nav-item .nav-link {
+    font-size: 17px;
+    margin-right: 0;
+  }
+  .container,
+  .container-sm {
+    max-width: 100% !important;
+  }
+  .sm_pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  nav .btn-primary {
+    background: none;
+    border: 0;
+    outline: 0;
+    --bs-btn-active-bg: none;
+    transition: all linear 0.4s;
+  }
+  nav .btn-primary:hover {
+    background: none;
+  }
+  nav .btn-primary:hover i {
+    color: #463c87 !important;
+  }
+  .navbar-nav {
+    margin-left: 0 !important;
+  }
+  .offcanvas {
+    background: rgb(239, 239, 239);
+    align-items: center;
+    padding-top: 36px;
+    width: 80% !important;
+    z-index: 999999;
+  }
+
+  .btn-close {
+    --bs-btn-close-bg: none !important;
+    --bs-btn-close-focus-shadow: none;
+    --bs-btn-close-focus-opacity: 0;
+    --bs-btn-close-disabled-opacity: 0;
+  }
+
+  /* ------------------ nav----------------------- */
+  .offcanvas {
+    padding-block-start: 0;
+  }
+  .offcanvas .offcanvas-body {
+    padding-inline: 0;
+  }
+  .navbar-nav {
+    justify-content: center;
+    align-items: center;
+    row-gap: 15px;
+  }
+
+  .offcanvas-body .read_btn a {
+    padding: 8px 10px;
+    margin-top: 20px;
+  }
+
+  #hero_section .left .dau {
+    margin-block-start: 10px;
+    margin-left: 0px;
+    width: 71px;
+  }
+  #hero_section .left .dau img {
+    width: 100%;
+  }
+
+  #hero_section .left .text p {
+    font-size: 17px;
+    margin-block: 20px 6px;
+    width: auto;
+    text-align: center;
+  }
+  #hero_section .left .text h1 {
+    font-size: 40px;
+    width: auto;
+    text-align: center;
+  }
+  #notified_section .jam {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #hero_section .left .text h4 {
+    font-size: 17px;
+    width: auto;
+    text-align: center;
+  }
+  .m_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #hero_section .right .image img {
+    position: static;
+    width: 100%;
+  }
+  #hero_section .right {
+    margin: 60px 0;
+  }
+  #hero_section .right .image .rate .icone i {
+    font-size: 28px;
+  }
+
+  #hero_section .right .image .rate .text h5 {
+    font-size: 16px;
+    margin-block-end: 5px;
+  }
+  #hero_section .right .image .rate .text p {
+    font-size: 12px;
+  }
+
+  #hero_section .right .image .rate {
+    column-gap: 10px;
+    right: 0 !important;
+    transform: translate(5%, -50%);
+    padding: 11px;
+  }
+  #help_section .image {
+    margin-block-end: 15px;
+    margin-block-start: 15px;
+    width: 80px;
+  }
+  #help_section .image img {
+    width: 100%;
+  }
+  #coaching_section .card .card-body .card-title {
+    height: 65px;
+  }
+  .sub_title h2 {
+    font-size: 31px;
+    line-height: 40px;
+    width: auto;
+  }
+  #help_section p {
+    font-size: 16px;
+    width: auto;
+    margin-block: 20px;
+    text-align: center;
+  }
+  #coaching_section {
+    padding-block: 10px 50px;
+  }
+  .m_person {
+    margin: 0 auto;
+  }
+  #coaching_section .card .card-body .card-text {
+    width: auto;
+  }
+  #clients_section {
+    padding: 55px 0 70px 0;
+  }
+  .m_coaching {
+    margin: 0 auto;
+  }
+  #clients_section .sub_title h2 {
+    width: auto;
+  }
+  .sub_title h2 {
+    font-size: 40px;
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 47px;
+  }
+  #clients_section .one_person {
+    padding: 40px;
+  }
+  #clients_section .one_person .detail h3 {
+    font-size: 18px;
+    line-height: 30px;
+    width: auto;
+  }
+  #clients_section .one_person .name h3 {
+    font-size: 30px;
+    width: auto;
+  }
+  #motivate_section {
+    padding: 10px 0;
+  }
+  #motivate_section .motiva_title {
+    width: auto;
+    margin-block-end: 50px;
+  }
+
+  #motivate_section .card {
+    width: auto;
+    height: 475px;
+  }
+  .m_crd {
+    margin: 0 auto;
+  }
+  #miss_section .purple_box .image .miss_img {
+    width: 100%;
+    position: static;
+  }
+  #miss_section .purple_box .image {
+    width: 100%;
+  }
+  #miss_section .purple_box {
+    width: auto;
+    height: 550px;
+    margin: 60px 0;
+    overflow: hidden;
+  }
+  #miss_section .purple_box .circle {
+    transform: translate(0, -0);
+    width: 90px;
+    height: 90px;
+  }
+  #miss_section .purple_box .text h3 {
+    font-size: 30px;
+    line-height: 38px;
+    width: auto;
+    padding: 115px 0 15px 23px;
+  }
+  #motivate_section .card-body h5 {
+    font-size: 27px;
+    width: auto;
+    height: 135px;
+  }
+  #motivate_section .card-body p {
+    font-size: 15px;
+    width: auto;
+  }
+  #miss_section {
+    padding: 0px 0 20px 0;
+  }
+  #miss_section .sub_title {
+    width: auto;
+    margin-block: 46px 22px;
+  }
+  .meet_pic {
+    margin: auto 0 !important;
+  }
+  #miss_section .text p {
+    font-size: 16px;
+    width: auto;
+    text-align: center;
+  }
+  #miss_section .text p {
+    font-size: 16px;
+    width: auto;
+    margin-block-end: 20px;
+    text-align: center;
+    line-height: 30px;
+  }
+  #miss_section .read_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #miss_section .read_btn a {
+    margin-block-end: 45px;
+  }
+
+  #minutes_section .full_box .text p {
+    font-size: 16px;
+    line-height: 20px;
+    margin-block: 15px 20px;
+    text-align: center;
+  }
+  #minutes_section .full_box .text .sub_title h2 {
+    font-size: 22px;
+    line-height: 35px;
+    margin-block-start: 30px;
+    text-align: center;
+  }
+  #minutes_section .read_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-block-end: 20px;
+  }
+  #minutes_section .full_box {
+    padding-block-start: 0;
+    border-radius: 24px;
+    padding-block-start: 5px;
+    padding-inline-start: 0;
+  }
+  #minutes_section {
+    padding-block-end: 60px;
+  }
+  #notified_section .email {
+    column-gap: 10px;
+  }
+  #notified_section .email form input {
+    padding: 9px 29px;
+  }
+  #notified_section .email .read_btn a {
+    padding: 9px 24px;
+    font-size: 14px;
+  }
+  #notified_section .text .sub_title h2 {
+    font-size: 27px;
+    line-height: 35px;
+  }
+  #notified_section .text p {
+    font-size: 17px;
+    text-align: center;
+    line-height: 27px;
+    margin-block: 28px;
+  }
+  #contact_section .con_logo {
+    margin-block-end: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #contact_section .text p {
+    font-size: 17px;
+    width: auto;
+    margin-block-end: 12px;
+    text-align: center;
+    line-height: 24px;
+  }
+
+  #contact_section .text a {
+    font-size: 18px;
+    line-height: 24px;
+    width: 100%;
+    margin-block-end: 12px;
+    text-align: center;
+  }
+  #contact_section .text {
+    margin-block-start: 12px;
+  }
+  #help_section {
+    margin-block-start: 20px;
+  }
+  #contact_section .sub_title h2 {
+    font-size: 15px;
+    line-height: 20px;
+    margin-block-start: 5px;
+    height: 37px;
+  }
+
+  nav .nav-item .nav-link {
+    font-size: 17px;
+    margin-right: 0;
+  }
+  .fa-solid {
+    font-size: 20px;
+  }
+}
+/* ======================= md end =========================== */
+/* ======================== lg start =========================== */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .container,
+  .container-sm {
+    max-width: 100% !important;
+  }
+  #hero_section .left .dau {
+    margin-block-start: 10px;
+    margin-left: 0px;
+    width: 90px;
+  }
+  #hero_section .left .dau img {
+    width: 100%;
+  }
+
+  #hero_section .left .text p {
+    font-size: 16px;
+    margin-block: 20px 15px;
+    width: auto;
+  }
+  #hero_section .left .text h1 {
+    font-size: 45px;
+    width: auto;
+  }
+  #notified_section .jam {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #hero_section .left .text h4 {
+    font-size: 18px;
+    width: auto;
+  }
+  .m_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #hero_section {
+    padding-block-end: 100px;
+  }
+  #hero_section .right {
+    margin: 60px 0;
+  }
+  #hero_section .right .image .rate .icone i {
+    font-size: 35px;
+  }
+
+  #hero_section .right .image .rate .text h5 {
+    font-size: 20px;
+    margin-block-end: 5px;
+  }
+  #hero_section .right .image .rate .text p {
+    font-size: 14px;
+  }
+  #hero_section .right .image .rate {
+    transform: translate(-15%, -50%);
+    padding: 15px;
+  }
+  #help_section .image {
+    margin-block-end: 15px;
+    margin-block-start: 15px;
+    width: 80px;
+  }
+  #help_section .image img {
+    width: 100%;
+  }
+  #coaching_section .card .card-body .card-title {
+    height: 65px;
+    margin-block-end: 10px;
+  }
+  .sub_title h2 {
+    font-size: 31px;
+    line-height: 40px;
+    width: auto;
+  }
+  #help_section p {
+    font-size: 17px;
+    width: auto;
+    margin-block: 20px;
+  }
+  #coaching_section {
+    padding-block: 10px 50px;
+  }
+  .m_person {
+    margin: 0 auto;
+  }
+  #coaching_section .card .card-body .card-text {
+    width: auto;
+  }
+  #clients_section {
+    padding: 55px 0 70px 0;
+  }
+  .m_coaching {
+    margin: 0 auto;
+  }
+  #hero_section .right .image img {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .sub_title h2 {
+    font-size: 40px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 47px;
+  }
+  #motivate_section .sub_title h2 {
+    font-size: 40px;
+    width: 680px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 47px;
+  }
+  #clients_section .one_person {
+    padding: 40px;
+  }
+  #clients_section .one_person .detail h3 {
+    font-size: 18px;
+    line-height: 30px;
+    width: auto;
+  }
+  #clients_section .one_person .name h3 {
+    font-size: 30px;
+    width: auto;
+  }
+  #motivate_section {
+    padding: 50px 0;
+  }
+  #motivate_section .motiva_title {
+    width: auto;
+    margin-block-end: 50px;
+  }
+
+  #motivate_section .card {
+    width: auto;
+    height: 475px;
+  }
+  .m_crd {
+    margin: 0 auto;
+  }
+  #miss_section .purple_box .image .miss_img {
+    width: 100%;
+    position: static;
+  }
+  #miss_section .purple_box .image {
+    width: 100%;
+  }
+  #miss_section .purple_box {
+    margin: 60px 0;
+    overflow: hidden;
+  }
+  #miss_section .purple_box .circle {
+    transform: translate(0, -0);
+    width: 90px;
+    height: 90px;
+  }
+  #miss_section .purple_box .text h3 {
+    line-height: 40px;
+  }
+  #motivate_section .card-body h5 {
+    font-size: 27px;
+    width: auto;
+    height: 135px;
+  }
+  #motivate_section .card-body p {
+    font-size: 15px;
+    width: auto;
+  }
+  #miss_section {
+    padding: 0px 0 20px 0;
+  }
+  #miss_section .sub_title {
+    width: auto;
+    margin-block: 46px 22px;
+  }
+  .meet_pic {
+    margin: auto 0 !important;
+  }
+
+  #miss_section .text p {
+    font-size: 16px;
+    width: auto;
+    margin-block-end: 20px;
+    text-align: justify;
+    line-height: 30px;
+  }
+  #miss_section .read_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #miss_section .read_btn a {
+    margin-block-end: 45px;
+  }
+
+  #minutes_section .full_box .text p {
+    font-size: 16px;
+    line-height: 20px;
+    margin-block: 15px 20px;
+    text-align: center;
+  }
+  #minutes_section .full_box .text .sub_title h2 {
+    font-size: 30px;
+  }
+  .miss_sid {
+    display: flex;
+    justify-content: flex-end;
+  }
+  #minutes_section .read_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-block-end: 20px;
+  }
+  #minutes_section .full_box {
+    padding-block-start: 0;
+    border-radius: 24px;
+    padding-block-start: 5px;
+    padding-inline-start: 0;
+  }
+  #minutes_section {
+    padding-block-end: 60px;
+  }
+  #notified_section .email {
+    column-gap: 10px;
+  }
+  #notified_section .email form input {
+    padding: 9px 29px;
+  }
+  #notified_section .email .read_btn a {
+    padding: 9px 24px;
+    font-size: 14px;
+  }
+  #notified_section .text .sub_title h2 {
+    font-size: 27px;
+    line-height: 35px;
+  }
+  #notified_section .text p {
+    font-size: 17px;
+    text-align: center;
+    line-height: 27px;
+    margin-block: 28px;
+  }
+  #contact_section .con_logo {
+    margin-block-end: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #contact_section .text p {
+    font-size: 17px;
+    width: auto;
+    margin-block-end: 12px;
+    text-align: center;
+    line-height: 24px;
+  }
+
+  #contact_section .text a {
+    font-size: 18px;
+    line-height: 24px;
+    width: 100%;
+    margin-block-end: 12px;
+    text-align: center;
+  }
+  #contact_section .text {
+    margin-block-start: 12px;
+  }
+  #help_section {
+    margin-block-start: 60px;
+  }
+  #contact_section .sub_title h2 {
+    font-size: 15px;
+    line-height: 20px;
+    margin-block-start: 5px;
+    height: 37px;
+  }
+
+  nav .nav-item .nav-link {
+    font-size: 17px;
+  }
+  .read_btn a {
+    padding: 9px 9px;
+  }
+  .fa-solid {
+    font-size: 20px;
+  }
+}
+/* ======================= lg end =========================== */
+/* ======================== xl start =========================== */
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .m_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #hero_section .left .dau {
+    margin-block-start: 55px;
+    margin-left: -35px;
+  }
+  #help_section .image {
+    width: 80px;
+  }
+  #help_section .image img {
+    width: 100%;
+  }
+  #coaching_section {
+    padding-block: 10px 50px;
+  }
+  .m_person {
+    margin: 0 auto;
+  }
+  #coaching_section .card .card-body .card-text {
+    width: auto;
+  }
+  #clients_section {
+    padding: 55px 0 70px 0;
+  }
+  .m_coaching {
+    margin: 0 auto;
+  }
+  #hero_section .right .image img {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  #motivate_section .sub_title h2 {
+    width: 680px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 47px;
+  }
+  #clients_section .one_person {
+    padding: 40px;
+  }
+  #clients_section .one_person .detail h3 {
+    font-size: 18px;
+    line-height: 30px;
+    width: auto;
+  }
+  #minutes_section .full_box .text .sub_title h2 {
+    font-size: 31px;
+    line-height: 52px;
+    margin-block-start: 129px;
+    text-align: center;
+  }
+  #clients_section .one_person .name h3 {
+    font-size: 30px;
+    width: auto;
+  }
+  #motivate_section {
+    padding: 50px 0;
+  }
+  #motivate_section .motiva_title {
+    width: auto;
+    margin-block-end: 50px;
+  }
+
+  #motivate_section .card {
+    width: auto;
+    height: 475px;
+  }
+  .m_crd {
+    margin: 0 auto;
+  }
+  #miss_section .purple_box .image .miss_img {
+    width: 100%;
+    position: static;
+  }
+  #miss_section .purple_box .image {
+    width: 100%;
+  }
+  #miss_section .purple_box {
+    margin: 60px 0;
+    overflow: hidden;
+  }
+  #miss_section .purple_box .circle {
+    transform: translate(0, -0);
+    width: 90px;
+    height: 90px;
+  }
+  #miss_section .purple_box .text h3 {
+    line-height: 40px;
+  }
+  #motivate_section .card-body h5 {
+    font-size: 27px;
+    width: auto;
+    height: 135px;
+  }
+  #motivate_section .card-body p {
+    font-size: 15px;
+    width: auto;
+  }
+  #miss_section {
+    padding: 0px 0 20px 0;
+  }
+  #miss_section .sub_title {
+    width: auto;
+    margin-block: 46px 22px;
+  }
+  .meet_pic {
+    margin: auto 0 !important;
+  }
+  #miss_section .text p {
+    font-size: 16px;
+    width: auto;
+    margin-block-end: 20px;
+    text-align: justify;
+    line-height: 30px;
+  }
+  #miss_section .read_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #miss_section .read_btn a {
+    margin-block-end: 45px;
+  }
+
+  #minutes_section .full_box .text p {
+    font-size: 16px;
+    line-height: 20px;
+    margin-block: 15px 20px;
+    text-align: center;
+  }
+  .miss_sid {
+    display: flex;
+    justify-content: flex-end;
+  }
+  #minutes_section .read_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-block-end: 20px;
+  }
+  #minutes_section .full_box {
+    padding-block-start: 0;
+    border-radius: 24px;
+    padding-block-start: 5px;
+    padding-inline-start: 0;
+  }
+  #minutes_section {
+    padding-block-end: 60px;
+  }
+  #notified_section .email {
+    column-gap: 10px;
+  }
+  #notified_section .email form input {
+    padding: 9px 29px;
+  }
+  #notified_section .email .read_btn a {
+    padding: 9px 24px;
+    font-size: 14px;
+  }
+
+  #contact_section .text {
+    margin-block-start: 12px;
+  }
+  #help_section {
+    margin-block-start: 60px;
+  }
+
+  nav .nav-item .nav-link {
+    font-size: 17px;
+  }
+  .fa-solid {
+    font-size: 20px;
+  }
+}
+/* ======================= xl end =========================== */

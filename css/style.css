@@ -1,0 +1,555 @@
+/* ====================== common css start========================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.btnx {
+  color: #ffffff;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 11px 16px;
+  border: 0;
+  background: #20ad96;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  display: inline-block;
+  transition: all linear 0.2s;
+}
+.btnx:hover {
+  color: #20ad96;
+  border: 1px solid #20ad96;
+  background: transparent;
+}
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+.sub_title h2 {
+  color: #333461;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 56px;
+}
+a {
+  text-decoration: none !important;
+  display: inline-block;
+  cursor: pointer;
+}
+ul {
+  list-style: none;
+}
+.read_btn a {
+  color: #ffffff;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  background: #20ad96;
+  border-radius: 10px;
+  transition: all linear 0.2s;
+  border: 1px solid transparent;
+}
+.read_btn a:hover {
+  color: #20ad96;
+  border: 1px solid #20ad96;
+  background: transparent;
+}
+/* ====================== common css end========================= */
+/* ====================== nav css start========================= */
+nav {
+  padding-block: 16px;
+}
+nav .nav-item .nav-link {
+  color: #4a556c;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  margin-right: 30px;
+  padding: 0 !important;
+  transition: all linear 2s;
+}
+nav .nav-item .nav-link:hover {
+  color: #20ad96;
+}
+.read_btn a {
+  padding: 11px 16px;
+}
+/* ====================== nav css end========================= */
+/* ====================== hero_section css start========================= */
+#hero_section {
+  background: #faf8f6;
+}
+
+#hero_section .left .text p {
+  color: #4a556c;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-block: 68px 6px;
+}
+#hero_section .left .text h1 {
+  color: #333461;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 72px;
+  line-height: 120%;
+  font-weight: 900;
+  width: 520px;
+}
+#hero_section .left .text h4 {
+  color: #4a556c;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 18px;
+  line-height: 160%;
+  font-weight: 400;
+  width: 545px;
+  margin-block: 18px;
+  text-align: justify;
+}
+#hero_section .left .text .btnx {
+  margin-block-end: 141px;
+}
+#hero_section .left .dau {
+  margin-block-start: 55px;
+  margin-left: -50px;
+}
+
+#hero_section .right {
+  margin: 100px 50px;
+}
+#hero_section .right .image {
+  position: relative;
+}
+#hero_section .right .image img {
+  position: absolute;
+  top: 0;
+}
+#hero_section .right .image .rate {
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+  position: absolute;
+  top: 0;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  padding: 24px;
+}
+#hero_section .right .image .rate .icone i {
+  font-size: 40px;
+}
+#hero_section .right .image .rate .text h5 {
+  color: #333461;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  margin-block-end: 5px;
+}
+#hero_section .right .image .rate .text p {
+  color: #333461;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  margin-block-end: 0;
+}
+/* ====================== hero_section css end========================= */
+/* ====================== help_section css start========================= */
+#help_section {
+  margin-block-start: 98px;
+}
+
+#help_section .image {
+  margin-block-end: 16px;
+}
+#help_section p {
+  color: #333461;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 25px;
+  width: 468px;
+  margin-block: 30px;
+  text-align: justify;
+}
+/* ====================== help_section css end========================= */
+/* ====================== coaching_section css start========================= */
+#coaching_section {
+  padding-block: 56px 120px;
+}
+#coaching_section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+#coaching_section .card {
+  border: 0;
+  width: 100% !important;
+}
+#coaching_section .card img {
+  width: 72px;
+}
+#coaching_section .card .card-body .card-title {
+  color: #333461;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  margin-block-end: 16px;
+}
+#coaching_section .card .card-body .card-text {
+  color: #333461;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 300px;
+}
+
+/* ====================== coaching_section css end========================= */
+
+/* ====================== clients_section css start========================= */
+#clients_section {
+  background: #faf8f6;
+  padding: 120px 0 219px 0;
+}
+
+#clients_section .sub_title h2 {
+  width: 530px;
+}
+#clients_section .container {
+  flex-direction: column;
+}
+#clients_section .one_person {
+  background: #ffffff;
+  padding: 48px;
+  margin-block-start: 37px;
+}
+#clients_section .one_person .detail h3 {
+  color: #333461;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  width: 304px;
+  transition: all linear 0.3s;
+}
+#clients_section .one_person .name h3 {
+  color: #333461;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  width: 304px;
+  margin-block: 15px;
+}
+#clients_section .one_person .star_icon i {
+  color: #dbdee6;
+  font-size: 20px;
+  margin-block-start: 15px;
+  transition: all linear 0.3s;
+}
+#clients_section .one_person .star_icon:hover i {
+  color: #fec84b;
+}
+#clients_section .one_person:hover .detail h3 span {
+  font-weight: 700;
+}
+#clients_section .one_person:hover {
+  cursor: pointer;
+}
+#clients_section .one_person .detail h3 span {
+  transition: all linear 0.2s;
+}
+
+/* ====================== clients_section css end========================= */
+/* ====================== motivate_section css start========================= */
+#motivate_section {
+  padding: 97px 0;
+}
+#motivate_section .motiva_title {
+  margin: 0 auto;
+  width: 680px;
+  text-align: center;
+  margin-block-end: 63px;
+}
+#motivate_section .card {
+  border-radius: 0;
+  width: 100%;
+  border: 1px solid #edeff5;
+  margin-block-end: 53px;
+}
+#motivate_section .card img {
+  width: 100%;
+  border-radius: 0;
+}
+#motivate_section .card-body {
+  padding: 24px 28px;
+}
+#motivate_section .card-body h5 {
+  color: #333461;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  width: 300px;
+  margin-block: 12px;
+}
+#motivate_section .card-body p {
+  color: #4a556c;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 300px;
+}
+#motivate_section .read_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#motivate_section .read_btn a {
+  padding: 9px 70px;
+}
+/* ====================== motivate_section css end========================= */
+/* ====================== miss_section css start========================= */
+#miss_section {
+  padding: 158px 0 139px 0;
+}
+#miss_section .sub_title {
+  width: 490px;
+  margin-block: 46px 22px;
+}
+#miss_section .text p {
+  color: #4a556c;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  width: 550px;
+  margin-block-end: 22px;
+}
+#miss_section .read_btn a {
+  padding: 9px 45px;
+  margin-block-end: 81px;
+}
+#miss_section .purple_box {
+  width: 446px;
+  height: 581px;
+  background: #463c87;
+  position: relative;
+}
+#miss_section .purple_box .circle {
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translate(50%, -50%);
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  background: #20ad96;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#miss_section .purple_box .circle p {
+  color: #ffffff;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0;
+}
+#miss_section .purple_box .text h3 {
+  color: #ffffff;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 50px;
+  width: 218px;
+  padding: 50px 0 0 38px;
+}
+#miss_section .purple_box .image .miss_img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+#miss_section .purple_box .image .text_img {
+  background: rgba(70, 60, 135, 0.3);
+  z-index: 99 !important;
+  position: absolute;
+  left: 0;
+  display: flex;
+  bottom: 25px;
+  width: 100%;
+  height: 79px;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+}
+#miss_section .purple_box .image .img_text .text_img .inner_text h6 {
+  color: #ffffff;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 12px;
+  text-align: start;
+  font-weight: 700;
+}
+#miss_section .purple_box .image .img_text .text_img .inner_text p {
+  color: #ffffff;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  text-align: start;
+  margin: 0;
+}
+#miss_section .purple_box .image .img_text .text_img .dim {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+}
+#miss_section .purple_box .image .img_text .text_img .inner_text {
+  width: 70%;
+}
+/* ====================== miss_section css end========================= */
+/* ====================== minutes_section css start========================= */
+
+#minutes_section {
+  padding-block-end: 96px;
+}
+#minutes_section .full_box {
+  padding-block-start: 48px;
+  background: #faf8f6;
+  border-radius: 24px;
+  padding-block-start: 48px;
+  padding-inline-start: 64px;
+  overflow: hidden;
+}
+#minutes_section .full_box .text .sub_title h2 {
+  font-size: 36px;
+  line-height: 40px;
+  margin-block-start: 129px;
+}
+#minutes_section .full_box .text p {
+  color: rgba(74, 85, 108, 0.5);
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-block: 20px 40px;
+}
+#minutes_section .full_box .read_btn a {
+  padding: 9px 93px;
+}
+#minutes_section .full_box .image {
+  width: 100%;
+  position: relative;
+}
+#minutes_section .full_box .image img {
+  width: 100%;
+}
+#minutes_section .full_box .image .video_icon {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  display: flex;
+  column-gap: 5px;
+  justify-content: center;
+  align-items: center;
+  width: 84px;
+  height: 32px;
+  border-radius: 6px;
+  background: #ffffff;
+}
+#minutes_section .full_box .image .video_icon img {
+  width: 16px;
+  height: 19px;
+}
+#minutes_section .full_box .image .video_icon a {
+  color: #428b7f;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  text-align: center;
+  margin-block-end: 0;
+}
+/* ====================== minutes_section css end========================= */
+/* ====================== notified_section css start========================= */
+#notified_section {
+  background: #faf8f6;
+  padding-block: 48px;
+}
+#notified_section .text .sub_title h2 {
+  font-size: 30px;
+  line-height: 40px;
+}
+#notified_section .text p {
+  color: #4a556c;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 400;
+  margin-block-start: 16px;
+}
+#notified_section .email {
+  display: flex;
+  column-gap: 20px;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+}
+#notified_section .email form input {
+  border: 1px solid #d0d5dd;
+  padding: 10px 14px;
+  border-radius: 8px;
+  outline: 0;
+}
+#notified_section .email form input::placeholder {
+  color: rgba(74, 85, 108, 0.5);
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+#notified_section .email .read_btn a {
+  padding: 10px 36px;
+}
+/* ====================== notified_section css end========================= */
+/* ====================== contact_section css start ========================= */
+#contact_section {
+  padding: 64px 48px;
+}
+#contact_section .text a {
+  color: rgba(74, 85, 108, 0.5);
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  width: 320px;
+  margin-block-end: 12px;
+}
+#contact_section .text p {
+  color: rgba(74, 85, 108, 0.5);
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  width: 320px;
+  margin-block-end: 12px;
+}
+#contact_section .con_logo {
+  margin-block-end: 32px;
+}
+#contact_section .sub_title h2 {
+  font-size: 14px;
+  line-height: 20px;
+  height: 37px;
+}
+.miss_sid {
+  display: flex;
+  justify-content: flex-end;
+}
+/* ====================== contact_section css end ========================= */
